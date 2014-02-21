@@ -1,4 +1,6 @@
-# Заготовка для разработки проектов на UMI.CMS по методологии БЭМ
+# Разработка на UMI.CMS по методологии БЭМ
+
+Заготовка для разработки проектов на UMI.CMS по методологии БЭМ
 
 ## Термины
 
@@ -24,8 +26,8 @@ project/
   │
   ├── .bem/ (настройка БЭМ инструментов)
   ├── assets/ (результат сборки js, css, images)
-  ├── blocks/ (блоки, могут располагатся в папках blocks, layout.blocks, blocks.layout)
-  ├── bundles/ (результат сборки блоков (бандлы), могут располагатся в папках pages, layout.pages, pages.layout, bundles, layout.bundles. ,bundles.layout)
+  ├── blocks/ (блоки, могут располагаться в папках level_name.blocks, blocks.level_name)
+  ├── bundles/ (результат сборки блоков (бандлы), могут располагаться в папках level_name.bundles, bundles.level_name)
   ├── classes/ (бекендн)
   ├── db/ (миграции базы данных)
   ├── umaps/ (протокол UMap — альтернативная маршрутизация адресов)
