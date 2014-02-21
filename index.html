@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Разработка проектов на UMI.CMS по методологии БЭМ by ilyar</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Разработка проектов на UMI.CMS по методологии БЭМ</h1>
+        <h2>Заготовка для разработки проектов на UMI.CMS по методологии БЭМ (не готов - активная разработка)</h2>
+        <a href="https://github.com/ilyar/umi-bem-project-stub" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="%D0%97%D0%B0%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-umicms-%D0%BF%D0%BE-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%91%D0%AD%D0%9C" class="anchor" href="#%D0%97%D0%B0%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-umicms-%D0%BF%D0%BE-%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%91%D0%AD%D0%9C"><span class="octicon octicon-link"></span></a>Заготовка для разработки проектов на UMI.CMS по методологии БЭМ</h1>
+
+<h2>
+<a name="%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B" class="anchor" href="#%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D1%8B"><span class="octicon octicon-link"></span></a>Термины</h2>
+
+<ul>
+<li>
+<strong>Система</strong> - UMI.CMS</li>
+<li>
+<strong>Системная папка</strong> - директория на хостинге или локально в которую установлена система</li>
+<li>
+<strong>Стандартный тип данных</strong> - тип данных в поставке актуальной версии системы</li>
+<li>
+<strong>Системный файл</strong> - файл идущий в поставке системы и может быть изменен при обновлении</li>
+</ul><h2>
+<a name="%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" class="anchor" href="#%D0%A0%D0%B5%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F"><span class="octicon octicon-link"></span></a>Реализация</h2>
+
+<p>Реализация проекта ведется по т.н. <a href="http://api.docs.umi-cms.ru/razrabotka_nestandartnogo_funkcionala/razrabotka_sobstvennyh_makrosov_i_modulej/novyj_format_rasshireniya_funkcionala/">новому формату расширения функционала</a> доступного с версии 2.8.5, подробно описан основной документации системы с использование XSLT-шаблонизатора.</p>
+
+<h2>
+<a name="%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B" class="anchor" href="#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B"><span class="octicon octicon-link"></span></a>Модификации системы</h2>
+
+<p>Модификация системы делается исключительно в не системных файлах в особенности это касается <a href="http://api.docs.umi-cms.ru/razrabotka_nestandartnogo_funkcionala/kodirovanie_administrativnogo_interfejsa/">модификации административного интерфейса</a></p>
+
+<h2>
+<a name="%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0" class="anchor" href="#%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0"><span class="octicon octicon-link"></span></a>Разработка</h2>
+
+<p>Разработка ведется с применением БЭМ методологии, подробнее о структуре проекта:</p>
+
+<pre>
+project/
+  │
+  ├── .bem/ (настройка БЭМ инструментов)
+  ├── assets/ (результат сборки js, css, images)
+  ├── blocks/ (блоки, могут располагатся в папках blocks, layout.blocks, blocks.layout)
+  ├── bundles/ (результат сборки блоков (бандлы), могут располагатся в папках pages, layout.pages, pages.layout, bundles, layout.bundles. ,bundles.layout)
+  ├── classes/ (бекендн)
+  ├── db/ (миграции базы данных)
+  ├── umaps/ (протокол UMap — альтернативная маршрутизация адресов)
+  ├── usels/ (протокол USel — обеспечивает выборки из базы)
+  └── xslt/ (результат сборки всех бандлов)
+</pre>
+
+<div class="highlight highlight-bash"><pre>npm install -g bem-cli
+git clone https://github.com/ilyar/umi-bem-project-stub project
+<span class="nb">cd </span>project
+npm install
+bem server
+</pre></div>
+
+<p>Смотрим результат сборки бандла <code>index</code> http://localhost:8080/bundles/index/</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/ilyar/umi-bem-project-stub/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/ilyar/umi-bem-project-stub/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/ilyar/umi-bem-project-stub"></a> is maintained by <a href="https://github.com/ilyar">ilyar</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-47068199-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
