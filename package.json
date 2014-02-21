@@ -4,7 +4,7 @@
   "author": "Ilya Rogov <ilyar.software@gmail.com> (http://github.com/ilyar)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ilyar/umi-project-stub.git"
+    "url": "git://github.com/ilyar/umi-bem-project-stub.git"
   },
   "engines": {
     "node": "0.6 | 0.8 | 0.10"

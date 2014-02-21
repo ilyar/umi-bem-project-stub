@@ -32,3 +32,13 @@ project/
   ├── usels/ (протокол USel — обеспечивает выборки из базы)
   └── xslt/ (результат сборки всех бандлов)
 </pre>
+
+```bash
+npm install -g bem-cli
+git clone https://github.com/ilyar/umi-bem-project-stub project
+cd project
+npm install
+bem server
+```
+
+Смотрим результат сборки бандла `index` http://localhost:8080/bundles/index/
