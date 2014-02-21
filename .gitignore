@@ -1,0 +1,16 @@
+libs/
+node_modules/
+.DS_Store
+Thumbs.db
+.idea
+.project
+.svn
+
+# bem
+.bem/cache/
+*bundles*/*/*.*
+!*bundles*/*/*.bemjson.js
+!*bundles*/.bem/*
+*pages*/*/*.*
+!*pages*/*/*.bemjson.js
+!*pages*/.bem/*
